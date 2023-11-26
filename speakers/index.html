@@ -128,47 +128,117 @@ Event website by Noor Gurib (github.com/Abdurrahman-gurib)
         </div>
         <!-- //.col-md-10 -->
       </div>
-      <!-- //.row -->
+      <!-- //.row HEREEEEEEEEEEE-->
 
-      <div class="row">
-        <!-- Speaker Box Start -->
-        <div class="features-box speaker-box col-sm-6 col-md-4">
-          <div class="overflow-hidden position-relative width-100  ">
-            <div class="img-wrapper">
-              <img src="../res/images/speakers/img0.jpeg" alt=""/>
-            </div>
-            <!-- //.img-wrapper -->
+      <style>
+        body {
+          font-family: Arial, sans-serif;
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+        }
+    
+        .row {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-between;
+          margin: 20px;
+        }
+    
+        .speaker-box {
+          width: 300px;
+          margin-bottom: 20px;
+          position: relative;
+          overflow: hidden;
+        }
+    
+        .img-wrapper img {
+          width: 100%;
+          height: auto;
+        }
+    
+        .overlay {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          background: rgba(0, 0, 0, 0.7);
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          opacity: 0;
+          transition: opacity 0.3s;
+        }
+    
+        .speaker-box:hover .overlay {
+          opacity: 1;
+        }
+    
+        .overlay-content {
+          text-align: center;
+          color: #fff;
+        }
+    
+        .speaker-name {
+          font-size: 1.2em;
+          font-weight: 700;
+          letter-spacing: 2px;
+          margin-bottom: 10px;
+          text-transform: uppercase;
+        }
+    
+        .speaker-title {
+          font-weight: 700;
+          letter-spacing: 1px;
+          font-size: 0.9em;
+        }
+      </style>
+    </head>
+    
 
-            <div class="bg-black no-padding-rl padding-6 position-relative text-center">
-              <span class="display-block font-family-alt font-weight-700 letter-spacing-2 text-white text-medium text-uppercase">
-                Bhiwoo Chervine 
-              </span>
-            </div>
-            <!-- //.bg-black -->
 
-            <div class="ease height-100 padding-2 position-absolute position-top position-left show-on-hover width-100">
-              <div class="bg-base-color height-100 width-100">
-                <div class="display-table height-100 width-100">
-                  <div class="display-table-cell no-padding-tb padding-11 vertical-align-middle text-uppercase text-white">
-                    <span class="display-block font-family-alt letter-spacing-1 title-small">
-                      Bhiwoo Chervine
-                    </span>
-                    <br>
-                    <span class="display-block font-weight-700 letter-spacing-1 text-medium">
-                      Engineering Lead at MCB
-                    </span>
-                  </div>
-                  <!-- //.display-table-cell -->
+
+    <div class="row">
+            <!-- Speaker Box Start -->
+            <div class="features-box speaker-box col-sm-6 col-md-4">
+              <div class="overflow-hidden position-relative width-100  ">
+                <div class="img-wrapper">
+                  <img src="../res/images/speakers/img0.jpeg" alt=""/>
                 </div>
-                <!-- //.display-table -->
+                <!-- //.img-wrapper -->
+    
+                <div class="bg-black no-padding-rl padding-6 position-relative text-center">
+                  <span class="display-block font-family-alt font-weight-700 letter-spacing-2 text-white text-medium text-uppercase">
+                    Bhiwoo Chervine 
+                  </span>
+                </div>
+                <!-- //.bg-black -->
+    
+                <div class="ease height-100 padding-2 position-absolute position-top position-left show-on-hover width-100">
+                  <div class="bg-base-color height-100 width-100">
+                    <div class="display-table height-100 width-100">
+                      <div class="display-table-cell no-padding-tb padding-11 vertical-align-middle text-uppercase text-white">
+                        <span class="display-block font-family-alt letter-spacing-1 title-small">
+                          Bhiwoo Chervine
+                        </span>
+                        <br>
+                        <span class="display-block font-weight-700 letter-spacing-1 text-medium">
+                          Engineering Lead at MCB
+                        </span>
+                      </div>
+                      <!-- //.display-table-cell -->
+                    </div>
+                    <!-- //.display-table -->
+                  </div>
+                  <!-- //.bg-base-color -->
+                </div>
+                <!-- //.ease -->
               </div>
-              <!-- //.bg-base-color -->
+              <!-- //.overflow-hidden -->
             </div>
-            <!-- //.ease -->
-          </div>
-          <!-- //.overflow-hidden -->
-        </div>
-        <!-- //Speaker Box End -->
+        <!-- //Speaker Box End HEREEEEEEEEEEEEEEEEEEEEEEEE -->
 
         <!-- Speaker Box Start -->
         <div class="features-box speaker-box col-sm-6 col-md-4">
