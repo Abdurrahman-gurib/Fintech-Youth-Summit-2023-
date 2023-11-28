@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Teams Information</title>
     <style>
+         <style>
         body {
             font-family: 'Arial', sans-serif;
             background-color: #f0f0f0;
@@ -16,7 +17,7 @@
         }
 
         table {
-            width: 80%;
+            width: 100%;
             border-collapse: collapse;
             margin-top: 20px;
         }
@@ -36,9 +37,19 @@
             font-weight: bold;
             margin-bottom: 10px;
         }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        /* Responsive Styles */
+        @media only screen and (max-width: 600px) {
+            table {
+                font-size: 14px; /* Adjust font size for smaller screens */
+            }
+        }
     </style>
-</head>
-<body>
 
     <table>
         <caption>Theme 1: Banking for Digital Natives</caption>
